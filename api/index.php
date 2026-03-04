@@ -5,7 +5,7 @@
  */
 $pageTitle = "HeyForsagee | Drive Prestige. Sail Power. Arrive Different.";
 $metaDesc = "The ultimate mobility solution for global leaders. Premium armored car rentals, private yacht charters, and VIP protocol services in Nigeria.";
-include 'includes/header.php';
+include '../includes/header.php';
 ?>
 
 <main>
@@ -331,4 +331,4 @@ include 'includes/header.php';
 
 </main>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>

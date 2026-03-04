@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "About Us | HeyForsagee";
 $headerBg = "bg-noir/90 backdrop-blur-md border-b border-white/10";
-include 'includes/header.php';
+include '../includes/header.php';
 ?>
 
 <!-- Hero Section -->
@@ -111,4 +111,4 @@ include 'includes/header.php';
     </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>

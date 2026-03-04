@@ -5,7 +5,7 @@
 $pageTitle = "Maritime Excellence | HeyForsagee - Luxury Yacht Charters";
 $metaDesc = "Experience ultimate privacy and luxury on the water. Private yacht and speed boat charters with full crew and catering options.";
 $headerBg = "bg-noir/80 backdrop-blur-lg border-b border-white/5";
-include 'includes/header.php';
+include '../includes/header.php';
 ?>
 
 <main class="pt-24 lg:pt-32">
@@ -157,4 +157,4 @@ include 'includes/header.php';
 
 </main>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>

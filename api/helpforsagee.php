@@ -5,7 +5,7 @@
  */
 $pageTitle = "HelpForSagee NGO | Social Impact by HeyForsagee";
 $metaDesc = "Learn about HelpForSagee, the philanthropic arm of HeyForsagee dedicated to empowering communities and creating meaningful social impact across Nigeria.";
-include 'includes/header.php';
+include '../includes/header.php';
 ?>
 
 <main class="pt-32 pb-24">
@@ -191,4 +191,4 @@ include 'includes/header.php';
     </div>
 </main>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>

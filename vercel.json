@@ -1,13 +1,45 @@
 {
     "functions": {
-        "api/**/*.php": {
-            "runtime": "vercel-php@0.6.1"
-        },
-        "*.php": {
-            "runtime": "vercel-php@0.6.1"
+        "api/*.php": {
+            "runtime": "vercel-php@0.9.0"
         }
     },
-    "routes": [
-        { "src": "/(.*)",  "dest": "/$1" }
+    "rewrites": [
+        {
+            "source": "/",
+            "destination": "/api/index.php"
+        },
+        {
+            "source": "/about",
+            "destination": "/api/about.php"
+        },
+        {
+            "source": "/boats",
+            "destination": "/api/boats.php"
+        },
+        {
+            "source": "/cars",
+            "destination": "/api/cars.php"
+        },
+        {
+            "source": "/contact",
+            "destination": "/api/contact.php"
+        },
+        {
+            "source": "/faqs",
+            "destination": "/api/faqs.php"
+        },
+        {
+            "source": "/helpforsagee",
+            "destination": "/api/helpforsagee.php"
+        },
+        {
+            "source": "/testimonials",
+            "destination": "/api/testimonials.php"
+        },
+        {
+            "source": "/(.*)\\.php",
+            "destination": "/api/$1.php"
+        }
     ]
 }

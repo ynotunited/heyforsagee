@@ -5,7 +5,7 @@
  */
 $pageTitle = "Contact Us | HeyForsagee - 24/7 VIP Concierge";
 $metaDesc = "Reach out to HeyForsagee for premium car rentals and boat charters. Our concierge team is available 24/7 to assist you.";
-include 'includes/header.php';
+include '../includes/header.php';
 ?>
 
 <main class="pt-32 pb-24">
@@ -206,4 +206,4 @@ _Sent via Sagee Elite Web Portal_`;
     });
 </script>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>

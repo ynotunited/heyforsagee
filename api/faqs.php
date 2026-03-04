@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Frequently Asked Questions | HeyForsagee";
 $headerBg = "bg-noir/90 backdrop-blur-md border-b border-white/10";
-include 'includes/header.php';
+include '../includes/header.php';
 
 $faqs = [
     "General information" => [
@@ -144,4 +144,4 @@ $faqs = [
     </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>

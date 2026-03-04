@@ -5,7 +5,7 @@
 $pageTitle = "Elite Fleet | HeyForsagee - Luxury & Armored Vehicles";
 $metaDesc = "Explore the finest collection of luxury sedans, armored SUVs, and exotic vehicles. Meticulously maintained for absolute prestige and safety.";
 $headerBg = "bg-noir/80 backdrop-blur-lg border-b border-white/5";
-include 'includes/header.php';
+include '../includes/header.php';
 ?>
 
 <main class="pt-24 lg:pt-32">
@@ -541,4 +541,4 @@ include 'includes/header.php';
 
 </main>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>
